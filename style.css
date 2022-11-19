@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300 font-medium;
+}
+
+.btn-purple{
+    @apply bg-[#5267df] text-[#f7f7f7];
+}
+
+.btn-white{
+    @apply bg-[#f7f7f7] text-[#5267df];
+}
